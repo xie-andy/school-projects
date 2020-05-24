@@ -1,0 +1,17 @@
+if there are no bombs around, assign a value of nothing
+execute function to check for bombs around it
+function will take into account the position of all squares around it
+it will then execute the checkbomb function and if it is not then it will execute the nothing function
+
+
+
+
+
+
+if topleft has nothing, run bombcheck 3 times with the different squares passed to it
+if x has nothing, run bombcheck (amount of squares surrounding x) times with the (squares surrounding x) passed as argument
+
+if it unveiled, dont check it in the first section
+in the second section, if it is unveiled dont check it
+
+bothminus[0].className.indexOf(" unveiled") == -1
